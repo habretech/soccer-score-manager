@@ -30,7 +30,8 @@ function Header() {
     <header className="bg-green-800 text-white shadow-md">
       <div className="max-w-6xl mx-auto px-4 py-3 flex items-center gap-4 flex-wrap">
         <NavLink to="/" className="flex items-center gap-2 font-bold text-lg mr-4">
-          ⚽ Soccer Score Manager
+          <img src="https://rkamal.com.np/images/icons/flag.gif" alt="flag" className="h-6 w-auto" />
+          Soccer Score Manager
         </NavLink>
         <nav className="flex gap-1 flex-wrap flex-1">
           {navItems.map(({ to, label }) => (
@@ -95,7 +96,7 @@ function AppLayout() {
         </Routes>
       </main>
       <footer className="text-center text-xs text-gray-400 py-4 border-t border-gray-100">
-        Soccer Score Manager — built with React, Express &amp; Supabase
+        Soccer Score Manager — Let the fun begin
       </footer>
     </div>
   );
